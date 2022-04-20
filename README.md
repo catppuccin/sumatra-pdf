@@ -18,7 +18,7 @@
 ## Usage
 
 1. Navigate to the `SumatraPDF` directory located in `AppData/Local/SumatraPDF`.
-2. Open the file `SumatraPDF-settings.txt`, you may want to create a backup of the file too.
+2. Open the file `SumatraPDF-settings.txt`, you may want to create a backup of the file.
 3. Replace everything from line `3 to 49` with the content given in [Catpuccin.txt](/Catpuccin.txt).
 4. Save the file and you would be able to see the changes.
 
