@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/sumatra-preview.png"/>
+  <img src="assets/sumatra-preview.webp"/>
 </p>
 
 ## Previews
