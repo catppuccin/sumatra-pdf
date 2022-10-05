@@ -39,7 +39,7 @@
 
 1. Navigate to the `SumatraPDF` directory (located in `AppData/Local/SumatraPDF`).
 2. Open the file `SumatraPDF-settings.txt`, you may want to create a backup of the file.
-3. Select one of the themes from the themes folder to use, the color palette is given [here](https://github.com/catppuccin/catppuccin#-palettes) if you want to preview colors.
+3. Select one of the themes from the themes folder to use, the theme previews are given [here](https://github.com/catppuccin/sumatra-pdf#previews) if you want to preview the themes.
 2. Replace everything from line `3 to 49` in `SumatraPDF-settings.txt` with the whole content of the theme file, for example - [`macchiato.txt`](/themes/macchiato.txt).
 4. Save the file and you would be able to see the changes.
 
