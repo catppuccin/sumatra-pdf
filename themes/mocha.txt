@@ -1,4 +1,4 @@
-MainWindowBackground = #dce0e8
+MainWindowBackground = #11111b
 EscToExit = false
 ReuseInstance = false
 UseSysColors = false
@@ -6,9 +6,9 @@ RestoreSession = true
 TabWidth = 300
 
 FixedPageUI [
-	TextColor = #4c4f69
-	BackgroundColor = #eff1f5
-	SelectionColor = #acb0be
+	TextColor = #cdd6f4
+	BackgroundColor = #1e1e2e
+	SelectionColor = #585b70
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
     HideScrollbars = false
@@ -16,8 +16,8 @@ FixedPageUI [
 EbookUI [
 	FontName = Georgia
 	FontSize = 12.5
-	TextColor = #4c4f69
-	BackgroundColor = #eff1f5
+	TextColor = #cdd6f4
+	BackgroundColor = #1e1e2e
 	UseFixedPageUI = false
 ]
 ComicBookUI [
@@ -42,6 +42,6 @@ PrinterDefaults [
 ForwardSearch [
 	HighlightOffset = 0
 	HighlightWidth = 15
-	HighlightColor = #acb0be75
+	HighlightColor = #585b7075
 	HighlightPermanent = false
 ]

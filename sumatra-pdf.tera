@@ -1,4 +1,11 @@
-MainWindowBackground = #dce0e8
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "themes/{{ flavor.name | lower }}.txt"
+---
+MainWindowBackground = #{{ crust.hex }}
 EscToExit = false
 ReuseInstance = false
 UseSysColors = false
@@ -6,9 +13,9 @@ RestoreSession = true
 TabWidth = 300
 
 FixedPageUI [
-	TextColor = #4c4f69
-	BackgroundColor = #eff1f5
-	SelectionColor = #acb0be
+	TextColor = #{{ text.hex }}
+	BackgroundColor = #{{ base.hex }}
+	SelectionColor = #{{ surface2.hex }}
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
     HideScrollbars = false
@@ -16,8 +23,8 @@ FixedPageUI [
 EbookUI [
 	FontName = Georgia
 	FontSize = 12.5
-	TextColor = #4c4f69
-	BackgroundColor = #eff1f5
+	TextColor = #{{ text.hex }}
+	BackgroundColor = #{{ base.hex }}
 	UseFixedPageUI = false
 ]
 ComicBookUI [
@@ -42,6 +49,6 @@ PrinterDefaults [
 ForwardSearch [
 	HighlightOffset = 0
 	HighlightWidth = 15
-	HighlightColor = #acb0be75
+	HighlightColor = #{{ surface2 | mod(opacity=0.46) | get(key="hex") }}
 	HighlightPermanent = false
 ]
