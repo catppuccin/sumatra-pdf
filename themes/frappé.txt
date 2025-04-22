@@ -1,4 +1,4 @@
-MainWindowBackground = #51576d
+MainWindowBackground = #232634
 EscToExit = false
 ReuseInstance = false
 UseSysColors = false
