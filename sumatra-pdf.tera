@@ -4,8 +4,9 @@ whiskers:
   matrix:
     - flavor
   filename: "themes/{{ flavor.identifier }}.txt"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
-MainWindowBackground = #{{ crust.hex }}
+MainWindowBackground = {{ crust.hex }}
 EscToExit = false
 ReuseInstance = false
 UseSysColors = false
@@ -13,9 +14,9 @@ RestoreSession = true
 TabWidth = 300
 
 FixedPageUI [
-	TextColor = #{{ text.hex }}
-	BackgroundColor = #{{ base.hex }}
-	SelectionColor = #{{ surface2.hex }}
+	TextColor = {{ text.hex }}
+	BackgroundColor = {{ base.hex }}
+	SelectionColor = {{ surface2.hex }}
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
     HideScrollbars = false
@@ -23,8 +24,8 @@ FixedPageUI [
 EbookUI [
 	FontName = Georgia
 	FontSize = 12.5
-	TextColor = #{{ text.hex }}
-	BackgroundColor = #{{ base.hex }}
+	TextColor = {{ text.hex }}
+	BackgroundColor = {{ base.hex }}
 	UseFixedPageUI = false
 ]
 ComicBookUI [
@@ -49,6 +50,6 @@ PrinterDefaults [
 ForwardSearch [
 	HighlightOffset = 0
 	HighlightWidth = 15
-	HighlightColor = #{{ surface2 | mod(opacity=0.46) | get(key="hex") }}
+	HighlightColor = {{ surface2 | mod(opacity=0.46) | get(key="hex") }}
 	HighlightPermanent = false
 ]
