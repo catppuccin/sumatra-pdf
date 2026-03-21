@@ -3,7 +3,7 @@ whiskers:
   version: "^2.7.0"
   matrix:
     - flavor
-  filename: "themes/{{ flavor.name | lower }}.txt"
+  filename: "themes/{{ flavor.identifier }}.txt"
 ---
 MainWindowBackground = #{{ crust.hex }}
 EscToExit = false
