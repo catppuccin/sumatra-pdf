@@ -50,6 +50,6 @@ PrinterDefaults [
 ForwardSearch [
 	HighlightOffset = 0
 	HighlightWidth = 15
-	HighlightColor = {{ surface2 | mod(opacity=0.46) | get(key="hex") }}
+	HighlightColor = {{ surface2 | mod(opacity=0.46) | hex }}
 	HighlightPermanent = false
 ]
